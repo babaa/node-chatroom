@@ -1,0 +1,19 @@
+{
+  "name": "Chatroom",
+  "version": "0.0.1",
+  "description": "Simple chatroom just for practice",
+  "contributors": [ 
+    {
+      "name": "Jette Feigenbaum",
+      "email": "jettefeigenbaum@gmail.com"
+    },
+    {
+      "name": "Martin Lensment",
+      "email": "mlensment@gmail.com"
+    } 
+  ],
+  "dependencies" : {
+    "express":  "3.1.x",
+    "socket.io": "0.9.x"
+  }
+}

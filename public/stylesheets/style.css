@@ -1,0 +1,38 @@
+form {
+    padding: 20px;
+    font-family: sans-serif;
+    }
+    
+#container {
+    width: 960px;
+    margin: auto;
+    background: #E8E8E8;
+    background-image: url('images/brushed_alu.png');
+}
+
+#info {
+    position:relative;
+    top: 10px;
+}
+
+.row-fluid {
+    padding: 10px;
+}
+
+#chat {
+    height: 300px;
+    overflow:auto;
+}
+
+#users {
+    overflow: auto;
+}
+
+#send {
+    position:relative;
+    top: -5px;
+}
+
+.chat-bold {
+    font-weight: bold;
+}

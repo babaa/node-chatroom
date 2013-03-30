@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Le Chatroom</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        </head>
+    <body>
+    
+        <div id="container">
+        
+        
+            <div class="row-fluid">
+                  
+                <div class="span8">
+                    <h3 id="topic">Chat topic</h3>
+                        <div id="info" class="alert">
+                            <div id="info-message">
+                                Connecting to server...
+                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            </div>
+                        </div>
+                
+            
+                    <div id="chat">
+                    </div>
+                
+                    <div class="row-fluid">
+                        <input type="text" name="message" />
+                        <button id="send" class="btn btn-info" disabled><i class="icon-heart icon-white"></i></button>  
+                    </div>
+                </div>
+                    
+              <div class="span4">
+                <h1>Le Chatroom</h1>
+                    <div class="row-fluid" id="users">
+
+                    </div>
+                
+              </div>
+                
+            </div>
+            
+            
+           <!-- <div id="loader">
+                <img src="images/loader.gif" alt="loader" />
+            </div> -->
+            
+             
+        </div>
+        
+        
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/livevalidation_standalone.compressed.js"></script>
+        <script src="./socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    </body>
+</html>
+
+
